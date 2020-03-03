@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>VehicleInfo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="{% static 'frontend/style.css' %}" />
+		<style>
+			.row {
+				margin: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<noscript>
+			You need to enable JavaScript to run this app.
+		</noscript>
+		<div id="app"></div>
+		<script
+			type="text/javascript"
+			src="{% static 'frontend/main.js' %}"
+		></script>
+		<script
+			type="text/javascript"
+			src="{% static 'frontend/jquery.min.js' %}"
+		></script>
+		<script
+			type="text/javascript"
+			src="{% static 'frontend/popper.min.js' %}"
+		></script>
+		<script
+			type="text/javascript"
+			src="{% static 'frontend/bootstrap.min.js' %}"
+		></script>
+	</body>
+</html>

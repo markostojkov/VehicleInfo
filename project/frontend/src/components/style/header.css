@@ -1,0 +1,107 @@
+.big_sidebar {
+	position: fixed;
+	width: 250px;
+	height: 100%;
+	background-color: #fff;
+	display: block;
+	z-index: 2;
+}
+
+.big_sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.big_sidebar ul li {
+	padding: 5px 0;
+}
+
+.big_sidebar ul li button {
+	font-weight: bolder;
+}
+
+.big_sidebar ul li button:hover {
+	color: #2780e3;
+}
+
+.big_sidebar ul li a {
+	font-weight: bolder;
+}
+
+.big_sidebar ul li a:hover {
+	color: #2780e3;
+}
+
+.big_button {
+	background-color: #fff;
+	margin: 0 8px;
+	border: none;
+}
+
+.big_button i svg {
+	margin-top: 15px;
+}
+
+.small_sidebar {
+	position: fixed;
+	text-align: center;
+	width: 75px;
+	height: 100%;
+	background-color: #fff;
+	display: none;
+}
+
+.small_sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.small_sidebar ul li {
+	padding: 5px 0;
+}
+
+.small_sidebar ul li a {
+	border-radius: 50%;
+}
+
+.small_sidebar ul li a:hover {
+	background-color: #cfcfcf;
+}
+
+.small_sidebar ul li button {
+	border-radius: 50%;
+}
+
+.small_sidebar ul li button:hover {
+	background-color: #cfcfcf;
+}
+
+.hamburger_button {
+	border-radius: 50%;
+}
+
+.hamburger_button:hover {
+	background-color: #cfcfcf;
+}
+
+.topbar {
+	display: inline-block;
+	width: 100%;
+	background-color: #fff;
+	padding: 10px;
+}
+
+.topbar div {
+	text-align: right;
+}
+
+@media only screen and (max-width: 992px) {
+	.big_sidebar {
+		display: none;
+	}
+	.small_sidebar {
+		display: block !important;
+	}
+}

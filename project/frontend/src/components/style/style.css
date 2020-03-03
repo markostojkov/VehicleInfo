@@ -1,0 +1,77 @@
+body {
+	background-color: #cfcfcf;
+}
+
+h1 {
+	margin-bottom: 0 !important;
+}
+
+.logoDiv {
+	background-color: #fffdff;
+}
+
+.logo {
+	display: inline;
+	width: 70%;
+	padding: 16px 0 0 0;
+	margin: auto;
+}
+
+.avatar {
+	display: block;
+	margin: auto;
+	width: 30%;
+}
+
+.avatar_profile {
+	width: 15%;
+}
+
+.text_center {
+	height: 80px;
+	line-height: 80px;
+}
+
+.widget_hover:hover {
+	filter: brightness(120%);
+}
+
+.content {
+	margin-left: 250px;
+}
+
+.pagination_rounded li button {
+	margin-left: 5px;
+	border-radius: 50%;
+	border: 2px solid #cfcfcf;
+}
+
+.sortRow:hover {
+	background-color: #cfcfcf;
+	cursor: pointer;
+}
+
+.sortRow i {
+	color: #2780e3;
+}
+
+.active button {
+	background-color: #2780e3 !important;
+	color: #fff !important;
+}
+
+#display_item {
+	width: 300px;
+	height: 200%;
+	position: fixed;
+	display: block;
+	right: 0;
+	background-color: red;
+	z-index: 1;
+}
+
+@media only screen and (max-width: 992px) {
+	.content {
+		margin-left: 75px !important;
+	}
+}
