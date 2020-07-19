@@ -25,7 +25,7 @@ SECRET_KEY = '&$aq2^-r69%)3e40d+t=rr)dm6o+2ov!p_hivgfcunxpk&q-en'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['vehicleinfo.herokuapp.com/']
 
 
 # Application definition
